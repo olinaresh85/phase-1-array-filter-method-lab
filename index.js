@@ -8,7 +8,7 @@ function findMatching(drivers, name) {
     return newDrivers;
   }
 
-  function matchName() {
-    
+  function matchName(drivers, string) {
+    return drivers.filter(driver => driver.name === string)
   }
   
